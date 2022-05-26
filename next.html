@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>NUMBER_PREDICTOR</title>
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" type="text/css" href="i2.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js">
+        integrity="sha384-R4/ztc4ZlRqWjqIuvf6RX5yb/v90qNGx6fS48N0tRxiGkqveZETq72KgDVJCp2TC"
+        crossorigin="anonymous"
+        </script>
+        <link href="https://code.jquery.com/ui/1.10.4/themes/dark-hive/jquery-ui.css"> 
+    </head>
+
+        
+    <body><br><br>
+        <script src=pre.js></script>
+    <div class="rules">
+        <div>THINK OF A NUMBER.</div>
+    </div><br>
+    <div class="rules">
+    <div>IS YOUR NUMBER GREATER THAN THE NUMBER SHOWN BELOW?</div>
+    </div><br>
+    <div class="main" id="middle">500</div>
+    <br>
+    <div class="wrapper">
+    <div><button onclick="middle1()">YES</button></div>
+    <div><button onclick="middle2()">NO</button></div>
+    </div><br>
+    <div class="wrapper">
+        <button onclick="reveal()">REVEAL</button>
+    </div>
+    <br><br>
+    <div class="main" id="final"></div><br>
+    <div class="rules">
+        <div>Click refresh to start again.</div></div><br>
+    <div class="wrapper">
+        <button onclick="history.go(0)">REFRESH</button>
+    </div> 
+    </body>
+</html>
